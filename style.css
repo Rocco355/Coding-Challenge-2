@@ -1,0 +1,115 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  font-family: 'Roboto Condensed';
+}
+
+body{
+  height:100vh;
+  width: 100vw;
+  background-image: url(background.jpg);
+  background-size: cover;
+  position: relative;
+}
+
+.container.general{
+  height: 90vh;
+  width: 62vw;
+  border-radius: 10px;
+  position: absolute;
+  top: 48vh;
+  left: 50%;
+  right: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  position: relative;
+}
+
+.container.content{
+  height: 68vh;
+  width: 50vw;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+header#title{
+text-align: center;
+}
+
+header#title>img{
+  width: 12vw;
+}
+
+header#title>h1{
+  color: lime;
+  font-size: 4vh;
+}
+
+nav#input{
+  height: 5vh;
+  background-color: lime;
+  margin-top: 1vh;
+  text-align: center;
+  line-height: 5vh;
+}
+
+nav#input>input{
+  padding-top: 1px;
+  padding-left: 3px;
+  padding-right: 3px;
+}
+
+main#monopattini>section{
+  margin-top: 2vh;
+}
+
+main#monopattini{
+  margin-top: 3vh;
+  color: white;
+}
+
+main#monopattini input{
+  float: left;
+  margin-top: 1vh;
+}
+
+main#monopattini h2{
+  font-size: 20px;
+  margin-left: 1.5vw;
+}
+
+main#monopattini p{
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.8);
+  line-height: 18px;
+}
+
+main#monopattini>section:first-child:after{
+  content: "";
+  display: block;
+  height: 3vh;
+  width: 15vw;
+  border-radius: 2px;
+  background-color: orange;
+}
+
+main#monopattini>section:nth-child(2):after{
+  content: "";
+  display: block;
+  height: 3vh;
+  width: 30vw;
+  border-radius: 2px;
+  background-color: green;
+}
+
+main#monopattini>section:last-child:after{
+  content: "";
+  display: block;
+  height: 3vh;
+  width: 10vw;
+  border-radius: 2px;
+  background-color: red;
+}
